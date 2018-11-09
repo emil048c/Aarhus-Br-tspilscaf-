@@ -49,12 +49,15 @@ button {
     padding-left: 9%;
     padding-right: 9%;
     margin: 3%;
-    
 }
 
 .buts {
     display: block;
     text-align: center;
+}
+
+.cafemenu {
+    margin-left: 29%;
 }
 
 p {
@@ -110,9 +113,4 @@ h3 {
     color: #435152;
 }
 
-/* Footer
------------------------------------------------------------------------------*/
-footer {
-    height: auto;
-    background: #BFF08E;
-}
+

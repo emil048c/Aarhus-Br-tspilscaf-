@@ -17,27 +17,48 @@
     <div id="wrapper">
 
         <header>
-            <nav>
-                <ul>
-                    <li>VESTER</li>
-                    <li>FREDENS</li>
-                </ul>
-            </nav>
+            <div class="welcome">
+                <nav>
+                    <div class="header">
+                        <ul>
+                            <li>VESTER</li>
+                            <li>FREDENS</li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
 
             <nav id="dropnav">
-                <ul>
-                    <li>GAMES</li>
-                    <li>CAFE</li>
-                    <li>EVENTS</li>
-                    <li>BOOK</li>
-                    <li>INFO</li>
-                </ul>
+                <label for="toggle">MENU</label>
+                <input type="checkbox" id="toggle" />
+                <div class="menu">
+                    <ul><img src="images/bhcafe.png" style="position: absolute; z-index: 2; max-height: 100%; overflow:hidden;">
+                        <li>
+                            <a href="#chapter1">
+                                <button type="button" class="menu-box">games</button>
+                            </a>
+                        </li>
+                        <li> <a href="#chapter2">
+                                <button type="button" class="menu-box">cafe</button>
+                            </a></li>
+                        <li> <a href="#chapter3">
+                                <button type="button" class="menu-box">events</button>
+                            </a></li>
+                        <li><a href="#chapter4">
+                                <button type="button" class="menu-box">book</button>
+                            </a></li>
+                        <li><a href="#chapter5">
+                                <button type="button" class="menu-box">info</button>
+                            </a></li>
+                    </ul>
+                </div>
             </nav>
         </header><!-- .header-->
 
         <main>
             <article>
                 <section>
+                    <a name="chapter1"></a>
                     <h1>GAMES</h1>
                     <p>SEARCH FOR A GAME OR TRY OUR GAMEBOT.</p> <br>
 
@@ -55,6 +76,7 @@
                     <img src="" alt="LUDO">
                 </picture>
                 <section>
+                    <a name="chapter2"></a>
                     <h2>CAFE/BAR</h2>
                     <p>IN OUR CAFE YOU'LL FIND</p>
                     <ul id="cafe">
@@ -62,7 +84,7 @@
                         <li>SNACKS</li>
                         <li>PATRIES</li>
                     </ul>
-                    <button type="button" class="cafemenu">MENU</button>
+                    <button type="button" class="buts">MENU</button>
                 </section>
 
                 <picture>
@@ -71,6 +93,7 @@
                     <img src="" alt="KAFFE">
                 </picture>
                 <section>
+                    <a name="chapter3"></a>
                     <h2>EVENTS</h2>
                     <h3>BOARDGAME CLUB</h3>
                     <p>TUESDAYS AT 8 O'CLOCK COME BY YOURSELF AND PLAY AGAINST STRANGERS</p><br>
@@ -89,6 +112,7 @@
                     <img src="" alt="NORTHSIDE">
                 </picture>
                 <section>
+                    <a name="chapter4"></a>
                     <h2>BOOKING</h2>
                     <p>MAKE A TABLE RESERVERTION ONLINE OR BY PHONECALL (MIN. 3 PEOPLE)</p>
                     <div class="buts">
@@ -102,6 +126,7 @@
                     <source srcset="">
                     <img src="" alt="PEOPLE PLAYING">
                 </picture>
+                <a name="chapter5"></a>
                 <section id="hours">
                     <h2>HOURS</h2>
                     <ul id="weekdays">

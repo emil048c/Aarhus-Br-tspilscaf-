@@ -27,8 +27,6 @@ nav {
 
 /* Middle
 -----------------------------------------------------------------------------*/
-main {}
-
 article {
     font-family: peyo;
 }
@@ -95,6 +93,10 @@ li {
 
 #times {
     padding-left: 69%;
+}
+
+.dark {
+    color: #FFD78B;
 }
 
 

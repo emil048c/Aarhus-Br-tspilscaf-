@@ -2,19 +2,21 @@ body {
     font: 16px/18px Arial, sans-serif;
 }
 
-#wrapper {
-    max-width: 1000px;
-    margin: 0 auto;
+.tablet {
+    display: none;
 }
 
-/*html {
-    background-image: url(../images/fredensgade-blur.jpg), url(../images/vestergade-blur.jpg);
-    background-position: center top, center bottom;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-}*/
+.desktopsmall {
+    display: none;
+}
 
+.desktop {
+    display: none;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
 
 .banner {
     position: relative;
@@ -36,5 +38,107 @@ body {
     font-family: peyo;
 }
 
+@media only screen and (min-width: 450px) {
+    #wrapper {
+        display: none;
+    }
 
+    .tablet {
+        display: block;
+        margin-left: 6%;
+    }
 
+    img {
+        width: 100%;
+        margin-top: 25%;
+    }
+
+    .one,
+    .two,
+    .three {
+        width: 30%;
+        float: left;
+        margin: 0.5%;
+    }
+
+    .two {
+        margin-top: 17%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #wrapper {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .desktopsmall {
+        display: block;
+        margin-left: 4%;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 31%;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five {
+        width: 18%;
+        float: left;
+        margin: 0.5%;
+    }
+    
+    .two,
+    .four {
+        margin-top: 11%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #wrapper {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+    
+    .desktopsmall {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+        margin-left: 3.5%;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 31%;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six {
+        width: 15%;
+        float: left;
+        margin: 0.5%;
+    }
+
+    .two,
+    .four,
+    .six {
+        margin-top: 9%;
+    }
+
+}
